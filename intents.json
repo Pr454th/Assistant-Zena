@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello",
+        "Good day",
+        "How are you doing"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for asking",
+        "Hi there, I am good, what can I do for you?",
+        "Hi there, how can I help?",
+        "Good. Yourself?",
+        "I was scanning files for malware infections",
+        "Your voice is more bolder than me sir, this gives me power to stay active"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "quit", "exit", "That's all for now",
+                    "I think we covered everything",
+                    "I don't have any more questions",
+                    "I'm done",
+                    "Let's end this conversation"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Alright! Feel free to reach out if you have more questions. Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "How's the weather outside?",
+        "Tell me the current weather conditions.",
+        "What's the forecast for tomorrow?",
+        "What is the weather"
+      ],
+      "responses": [
+        "Sure! Let me check the weather for you.",
+        "I'll find out the weather details for you.",
+        "Just a moment, I'll get you the weather information."
+      ]
+    },
+    {
+      "tag": "play_song",
+      "patterns": ["play a random song", "play some music", "start a random song", "play a song", "play some song"],
+      "responses": ["Sure! Let's play a random song for you.", "Alright! Here's a random song for you to enjoy.", "Great! I'll play a random song for you right away.", "Certainly! Get ready to listen to a random song."]
+    },
+    {
+      "tag": "open_music_folder",
+      "patterns": ["open music folder", "open my music folder", "access music folder"],
+      "responses": ["Sure! I'll open your music folder.", "Alright! Opening your music folder.", "Great! Let's access your music folder.", "Certainly! Your music folder is about to open."]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "Open YouTube",
+        "Launch YouTube",
+        "Go to YouTube"
+      ],
+      "responses": [
+        "Certainly! Opening YouTube for you.",
+        "You got it! Redirecting to YouTube.",
+        "Sure thing! Let me open YouTube for you."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": ["open website", "visit website", "go to website"],
+      "responses": ["Opening the website you requested, sir."]
+    },
+    {
+      "tag": "datetime",
+      "patterns": ["current time", "time", "date", "today's date", "what's the time", "tell me the date", "what is the date", "what date"],
+      "responses": ["on my way sir", "copy that sir", "roger that sir", "Won't dissapoint you sir"]
+    },
+    {
+      "tag": "search",
+      "patterns": ["search for", "find", "look up", "show me", "display", "what is", "what the heck is", "what could be", "what are", "search wiki"],
+      "responses": ["Certainly! I'll search for the information you need.", "No problem! I can help you find what you're looking for.", "I'll do my best to find and display the requested information.", "I'd be happy to assist you in searching and displaying the requested data."]
+    },
+    {
+      "tag": "note",
+      "patterns": ["take a note", "create a note", "write this down"],
+      "responses": ["Sure, I'm ready to take a note"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "joke", "funny joke", "share a joke", "give me a laugh"],
+      "responses": ["Sure! I love jokes! Here's one for you: Why don't scientists trust atoms? Because they make up everything!", "Of course! Here's a joke for you: Why don't skeletons fight each other? They don't have the guts!", "No problem! How about this one: Why don't some couples go to the gym? Because some relationships don't work out!", "I'd be happy to share a joke! Here it is: Why did the scarecrow win an award? Because he was outstanding in his field!"]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you", "what is your name", "tell me about yourself", "Is anyone there?", "introduce yourself"],
+      "responses": ["Hello sir, I am Ivy, your friendly chatbot assistant. I'm here to help you with your questions and tasks.", "Sir this is Ivy, an AI-powered chatbot designed to assist you. Feel free to ask me anything!", "I'm your virtual assistant, Ivy. How can I assist you today?", "I am Ivy, intelligent chatbot programmed to provide information and support. Ask me anything you like!"]
+    },
+    {
+      "tag": "advice",
+      "patterns": ["give me advice", "what should I do", "any advice for me", "help me decide", "piece of advice"],
+      "responses": ["Sure!"]
+    },
+    {
+      "tag": "stock",
+      "patterns": ["stock value", "stock price", "current stock value", "stock market", "stock information"],
+      "responses": ["Sure! I can help you find the current BK stock value"]
+    },
+    {
+      "tag": "cricket",
+      "patterns": ["cricket score", "live cricket score", "current cricket score", "score of the cricket match", "what's the cricket score", "tell me the score"],
+      "responses": ["Sure! I can provide you with the latest cricket score."]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["thank you", "thanks a lot", "much appreciated", "thank you so much", "thanks", "thanks a ton", "you helped me", "I will never forget you", "grateful"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+    }
+  ]
+}
